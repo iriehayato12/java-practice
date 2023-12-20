@@ -29,3 +29,5 @@ $(function () {
     }
   });
 })
+
+console.log("おはよう！！");
