@@ -30,4 +30,12 @@ $(function () {
   });
 })
 
-console.log("おはよう！！");
+$(function(){
+  $('.text-1').mouseover(function(){
+    $('.text-1').css({'background-color': '#0000FF'});
+  });
+  $('.text-1').mouseout(function(){
+    $('.text-1').css({'background-color': '#FF0000'});
+  });
+});
+
